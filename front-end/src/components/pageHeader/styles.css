@@ -1,0 +1,44 @@
+.page-header-component{
+    width:100vw;
+    background: var(--color-primary);
+    display:flex;
+    justify-content:center;
+
+}
+
+.page-header{
+    width:80%;
+    padding:3rem;
+}
+
+.top-bar-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.top-bar-container img{
+    width:6rem;
+
+}
+@media (min-width: 700px) {
+    .page-header{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+    
+    .header-content{
+        height:3rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+    }
+
+    h2{
+        font-size:3.5rem;
+    }
+
+
+}

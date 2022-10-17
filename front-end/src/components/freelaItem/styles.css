@@ -1,0 +1,80 @@
+
+.freela-item{
+    background: var(--color-box-base);
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+    width:60rem;
+    height:40rem;
+}
+
+.freela-item header{
+    padding: 3.2rem 2rem;
+    display:flex;
+    align-items: center;
+}
+
+.freela-item header div{
+    margin-left:2.4rem;
+}
+
+.freela-item header div strong{
+    font: 700 2.4rem;
+    display: block;
+    color: var(--color-text-title);
+}
+
+.freela-item header div span{
+    font-size: 1.6rem;
+    display: block;
+    margin-top:1.6rem;
+}
+
+.freela-item img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.freela-item > p {
+    padding:0 2rem;
+    font-size: 1.6rem;
+    line-height:2.8rem;
+}
+
+.freela-item footer{
+    padding: 3.2rem 2rem;
+    background:var(--color-box-footer);
+    border-top:1px solid var(--color-line-in-white);
+    margin-top:3.2rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;    
+}
+
+.freela-item footer strong {
+    margin-left:2rem;
+    font-size: 1.6rem;
+    color: var(--color-primary);
+
+}
+
+.freela-item button{
+    background: var(--color-secundary);
+    color: var(--color-title-in-primary);
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:23rem;
+    height:5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.freela-item button img{
+    margin-right:1rem;
+    width: 3rem;
+    height: 3rem;
+}
