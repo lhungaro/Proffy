@@ -1,14 +1,25 @@
-import React from "react";
+import {React, useState, useEffect} from "react";
 import Footer from "../../components/footer";
 import { Link } from 'react-router-dom'
 import backIcon from '../../assets/images/icons/back.svg'
 import logoImg from '../../assets/images/icons/Freela.svg';
 import PageHeader from "../../components/pageHeader";
-import FreelaItem from "../../components/freelaItem";
-
+import FreelaItem, { Freela } from "../../components/freelaItem";
+import api from '../../services/api'
 import './styles.css';
+import { FileWatcherEventKind } from "typescript";
+
 
 function FreelaList(){
+
+  const [freela, setFreela] = useState([]);
+
+  useEffect(() => {api.get("/project")
+    .then((response) => setFreela(response.data))
+    .catch((error) => console.log(error));
+    },[]);
+
+    console.log(freela);
     return (
         <div id="page-freela-list">
             <div id="freela-list" className="container">
@@ -34,21 +45,9 @@ function FreelaList(){
             </div>
             <div className="page-content">
                 <div className="list">
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
-                    <FreelaItem/>
+                    {freela.map((freela: Freela) => {
+                    return <FreelaItem key={freela.id} freela={freela} />;
+                    })}
                 </div>
               
             </div>

@@ -1,0 +1,17 @@
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Application.deps.json
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Application.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Application.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Domain.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Persistence.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Domain.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\bin\Debug\net6.0\Freela.Persistence.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.csproj.AssemblyReference.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.AssemblyInfoInputs.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.AssemblyInfo.cs
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.csproj.CoreCompileInputs.cache
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.csproj.CopyComplete
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\refint\Freela.Application.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\Freela.Application.pdb
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\Freela.Application\obj\Debug\net6.0\ref\Freela.Application.dll
