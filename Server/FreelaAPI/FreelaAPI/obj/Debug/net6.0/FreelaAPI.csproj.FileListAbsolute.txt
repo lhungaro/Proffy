@@ -66,3 +66,7 @@ C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\ne
 C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\FreelaAPI.pdb
 C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\FreelaAPI.genruntimeconfig.cache
 C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\obj\Debug\net6.0\ref\FreelaAPI.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hunga\source\repos\Profy\Proffy\Server\FreelaAPI\FreelaAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

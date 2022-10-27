@@ -18,6 +18,8 @@ builder.Services.AddDbContext<FreelaContext>(context =>
 builder.Services.AddScoped<IProjectService , ProjectService>();
 builder.Services.AddScoped<IFreelaRepository , FreelaRepository>();
 builder.Services.AddScoped<IProjectRepository , ProjectRepository>();
+builder.Services.AddScoped<IUserRepository , UserRepository>();
+builder.Services.AddScoped<IUserService , UserService>();
 //builder.Services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling 
 //                                 = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 var app = builder.Build();

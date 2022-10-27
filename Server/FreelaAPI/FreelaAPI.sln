@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freela.Domain", "Freela.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freela.Persistence", "Freela.Persistence\Freela.Persistence.csproj", "{F3B84444-5941-4657-88EC-91DD0778238C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freela.Website", "Freela.Website\Freela.Website.csproj", "{6A0D4F2E-F702-4471-A157-C939A962E2E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F3B84444-5941-4657-88EC-91DD0778238C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B84444-5941-4657-88EC-91DD0778238C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B84444-5941-4657-88EC-91DD0778238C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0D4F2E-F702-4471-A157-C939A962E2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0D4F2E-F702-4471-A157-C939A962E2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0D4F2E-F702-4471-A157-C939A962E2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0D4F2E-F702-4471-A157-C939A962E2E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

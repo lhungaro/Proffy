@@ -36,9 +36,12 @@ namespace Freela.Persistence
 
             return await query.ToArrayAsync();
         }
-        public Task<User> GetFreelaByIdAsync(int Id)
+        public async Task<User> GetFreelaByIdAsync(int Id)
         {
-            throw new NotImplementedException();
+            IQueryable<User> query = _context.Users.Include(p => p.Company);
+            query = query.OrderBy(p => p.Id).Where(p => p.Id == Id);
+
+            return await query.FirstOrDefaultAsync();
         }
 
     }

@@ -11,6 +11,7 @@ namespace Freela.Domain.Models
         public string Biography { get; set; }
         public string Area { get; set;}
         public string Price { get; set; }
+        public string Curriculum { get; set; }
         public Company Company { get; set; }
         public IEnumerable<UserProject> UserProjects { get; set; }
 
